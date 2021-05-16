@@ -1,0 +1,30 @@
+body {
+  background-color: #f5ece1;
+  margin: 0;
+}
+
+#pouring {
+  width: 100vw;
+  padding-top: 0;
+}
+
+#beer {
+  width: 100vw;
+  padding: 0;
+}
+
+#hills {
+  width: 100vw;
+  padding: 0;
+}
+
+#flight {
+  width: 100vw;
+  padding: 0;
+}
+
+#taps {
+  width: 100vw;
+  padding: 0;
+}
+/*# sourceMappingURL=style.css.map */
