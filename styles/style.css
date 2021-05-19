@@ -3,28 +3,63 @@ body {
   margin: 0;
 }
 
+#mainContent {
+  margin: 1px;
+}
+
+#headerBG {
+  height: 500px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  overflow: hidden;
+}
+
 #pouring {
   width: 100vw;
   padding-top: 0;
+  -o-object-position: 0px -400px;
+     object-position: 0px -400px;
+}
+
+#aboutBG {
+  height: 500px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  overflow: hidden;
 }
 
 #beer {
   width: 100vw;
-  padding: 0;
+  padding-top: 0;
+  -o-object-position: 0px -100px;
+     object-position: 0px -100px;
+}
+
+#mottoBG {
+  height: 500px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  overflow: hidden;
 }
 
 #hills {
   width: 100vw;
-  padding: 0;
+  padding-top: 0;
+  -o-object-position: 0px -400px;
+     object-position: 0px -400px;
+}
+
+#ourBeerBG {
+  height: 500px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  overflow: hidden;
 }
 
 #flight {
   width: 100vw;
-  padding: 0;
-}
-
-#taps {
-  width: 100vw;
-  padding: 0;
+  padding-top: 0;
+  -o-object-position: 0px -900px;
+     object-position: 0px -900px;
 }
 /*# sourceMappingURL=style.css.map */

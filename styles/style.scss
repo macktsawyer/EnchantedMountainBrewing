@@ -6,27 +6,54 @@ body {
     margin: 0;
 }
 
+#mainContent {
+    margin: 1px;
+}
+
+#headerBG {
+    height: 500px;
+    object-fit: contain;
+    overflow: hidden;
+}
+
 #pouring {
     width: $bg-image-width;
     padding-top: $bg-image-padding;
+    object-position: 0px -400px;
+}
+
+#aboutBG {
+    height: 500px;
+    object-fit: contain;
+    overflow: hidden;
 }
 
 #beer {
     width: $bg-image-width;
-    padding: $bg-image-padding;
+    padding-top: $bg-image-padding;
+    object-position: 0px -100px;
+}
+
+#mottoBG {
+    height: 500px;
+    object-fit: contain;
+    overflow: hidden;
 }
 
 #hills {
     width: $bg-image-width;
-    padding: $bg-image-padding;
+    padding-top: $bg-image-padding;
+    object-position: 0px -400px;
+}
+
+#ourBeerBG {
+    height: 500px;
+    object-fit: contain;
+    overflow: hidden;
 }
 
 #flight {
     width: $bg-image-width;
-    padding: $bg-image-padding;
-}
-
-#taps {
-    width: $bg-image-width;
-    padding: $bg-image-padding;
+    padding-top: $bg-image-padding;
+    object-position: 0px -900px;
 }
