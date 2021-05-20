@@ -1,10 +1,15 @@
 body {
-  background-color: #f5ece1;
+  background-color: black;
   margin: 0;
 }
 
 #mainContent {
   margin: 1px;
+}
+
+#header {
+  height: 100vh;
+  background-color: black;
 }
 
 #headerBG {
@@ -21,6 +26,11 @@ body {
      object-position: 0px -400px;
 }
 
+#about {
+  height: 100vh;
+  background-color: black;
+}
+
 #aboutBG {
   height: 500px;
   -o-object-fit: contain;
@@ -35,6 +45,11 @@ body {
      object-position: 0px -100px;
 }
 
+#motto {
+  height: 100vh;
+  background-color: black;
+}
+
 #mottoBG {
   height: 500px;
   -o-object-fit: contain;
@@ -47,6 +62,11 @@ body {
   padding-top: 0;
   -o-object-position: 0px -400px;
      object-position: 0px -400px;
+}
+
+#ourBeer {
+  height: 100vh;
+  background-color: black;
 }
 
 #ourBeerBG {
