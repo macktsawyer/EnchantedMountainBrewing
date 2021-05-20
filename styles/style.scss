@@ -13,6 +13,8 @@ body {
 
 #header {
     height: 100vh;
+    display: flex;
+    align-items: flex-end;
     background-color: $field-bg-color;
 }
 
@@ -30,6 +32,8 @@ body {
 
 #about {
     height: 100vh;
+    display: flex;
+    align-items: center;
     background-color: $field-bg-color;
 }
 
@@ -47,6 +51,8 @@ body {
 
 #motto {
     height: 100vh;
+    display: flex;
+    align-items: center;
     background-color: $field-bg-color;
 }
 
@@ -64,6 +70,8 @@ body {
 
 #ourBeer {
     height: 100vh;
+    display: flex;
+    align-items: center;
     background-color: $field-bg-color;
 }
 
