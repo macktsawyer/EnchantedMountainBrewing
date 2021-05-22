@@ -5,6 +5,7 @@ body {
 
 #mainContent {
   margin: 1px;
+  overflow-x: hidden;
 }
 
 #logoFade {
