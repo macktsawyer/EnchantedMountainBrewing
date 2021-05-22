@@ -1,6 +1,8 @@
 $bg-image-width: 100vw;
 $bg-image-padding: 0;
 $field-bg-color: black;
+$font-style: 'Oswald', sans-serif;
+$font-color: rgb(216, 235, 250);
 
 body {
     background-color: rgb(0, 0, 0);
@@ -11,15 +13,25 @@ body {
     margin: 1px;
 }
 
+#logoFade {
+    padding: 0;
+  }
+
+#logoImage {
+    height: 500px;
+}
+
 #header {
-    height: 100vh;
-    display: flex;
-    align-items: flex-end;
+    height: 50vh;
+    .container{
+        display: flex;
+        align-items: flex-start;
+    }
     background-color: $field-bg-color;
 }
 
 #headerBG {
-    height: 500px;
+    height: 50vh;
     object-fit: contain;
     overflow: hidden;
 }
@@ -32,15 +44,27 @@ body {
 
 #about {
     height: 100vh;
+    margin-top: 20px;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+    flex-direction: column;
     background-color: $field-bg-color;
 }
 
 #aboutBG {
-    height: 500px;
+    height: 50vh;
     object-fit: contain;
     overflow: hidden;
+}
+
+#textBoxAbout {
+    width: 100vw;
+    color: $font-color;
+    font-family: $font-style;
+}
+
+#textBoxAboutP {
+    font-size: 120%;
 }
 
 #beer {
@@ -52,12 +76,23 @@ body {
 #motto {
     height: 100vh;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+    flex-direction: column;
     background-color: $field-bg-color;
 }
 
+#textBoxMotto {
+    color: $font-color;
+    width: 100vw;
+    font-family: $font-style;
+}
+
+#textMottoP {
+    font-size: 120%;
+}
+
 #mottoBG {
-    height: 500px;
+    height: 50vh;
     object-fit: contain;
     overflow: hidden;
 }
@@ -71,18 +106,60 @@ body {
 #ourBeer {
     height: 100vh;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+    flex-direction: column;
     background-color: $field-bg-color;
 }
 
 #ourBeerBG {
-    height: 500px;
+    height: 50vh;
     object-fit: contain;
     overflow: hidden;
+}
+
+#textBoxOurBeer {
+    color: $font-color;
+    width: 100vw;
+    font-family: $font-style;
+}
+
+#textOurBeerP {
+    font-size: 120%;
 }
 
 #flight {
     width: $bg-image-width;
     padding-top: $bg-image-padding;
     object-position: 0px -900px;
+}
+
+#footer {
+    height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: $field-bg-color;
+}
+
+#footerBG {
+    height: 50vh;
+    object-fit: contain;
+    overflow: hidden;
+}
+
+#hops {
+    width: $bg-image-width;
+    padding-top: $bg-image-padding;
+    object-position: 0px -900px;
+}
+
+#footerTextDiv {
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+#textBoxFooterLeft {
+    color: $font-color;
+    width: 100vw;
+    font-family: $font-style;
 }
