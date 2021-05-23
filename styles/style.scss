@@ -31,6 +31,22 @@ body {
     background-color: $field-bg-color;
 }
 
+#menu {
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+#menuOptions {
+    color: white;
+    font-family: $font-style;
+}
+
+.menuList {
+    list-style: none;
+    display: inline;
+}
+
 #headerBG {
     height: 50vh;
     object-fit: contain;
