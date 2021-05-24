@@ -10,6 +10,20 @@
     <title>Document</title>
 </head>
 <body>
+    <div id="legalAgePrompt">
+        <div align="center" id="consentAgeBox">
+            <h1>Are you 21 years old or older?</h1>
+        </div>
+        <button id="ageYes">Yes</button>
+        <button id="ageNo">No</button>
+        <div text-align="center" id="ageText">
+            <p>Enchanted Mountain Brewing Co complies with all laws and regulations concerning the sale and consumption of alcohol.</p>
+            <p>No persons under the age of 21yo may enter our website or premises. No persons under the age of 21yo may purchase our</p>
+            <p>products or consume alcohol on our premise.</p>
+        </div>
+    </div>
+    <div id="blackOutBlur">
+    </div>
     <div id="mainContent">
         <div align="center" class="container" id="header">
             <div id="logoFade">
@@ -19,14 +33,12 @@
             </div>
         </div>
         <div align="center" id="menu">
-            <div id="menuOptions">
-                <ul>
-                    <li class="menuList"><h2>About</h2></li>
-                    <li class="menuList"><h2>Motto</h2></li>
-                    <li class="menuList"><h2>Beer Selection</h2></li>
-                    <li class="menuList"><h2>Info</h2></li>
-                </ul>
-            </div>
+            <ul id="menuOptions">
+                <li class="menuList" data-link="about" id="linkAbout"><h2>About</h2></li>
+                <li class="menuList" data-link="motto" id="linkMotto"><h2>Motto</h2></li>
+                <li class="menuList" data-link="ourBeer" id="linkBeer"><h2>Beer Selection</h2></li>
+                <li class="menuList" data-link="footer" id="linkInfo"><h2>Info</h2></li>
+            </ul>
         </div>
         <div class="container" id="about">
             <div id="aboutBG">        
@@ -112,11 +124,22 @@
                     Sun: 3-8
                     <br>
                 </div>
+                <div id="emailInput">
+                    <h1 id="contactUsLabel">Contact Us</h1>
+                    <input id="emailInputBox" type="text" label="email">
+                    <button id="emailBtn">Submit</button>
+                    <p id="phoneNumber">Phone: 1-(716)-375-0123</p>
+                </div>
+                <div id="locationInfo">
+                    <img id="mapPic" src="map.jpg" alt="">
+                    <div align="center">
+                        <p>1234 Constitution Ave</p>
+                        <p>Olean NY, 14760</p>
+                    </div>
+                </div>
             </div>
         </div>
-        <div id="legalAgePrompt">
-
-        </div>
     </div>
+    <script src="main.js"></script>
 </body>
 </html>

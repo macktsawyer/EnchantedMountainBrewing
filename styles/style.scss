@@ -2,11 +2,63 @@ $bg-image-width: 100vw;
 $bg-image-padding: 0;
 $field-bg-color: black;
 $font-style: 'Oswald', sans-serif;
-$font-color: rgb(216, 235, 250);
+$font-color: rgb(85, 78, 65);
+$button-color: grey;
+$button-border: black solid 1px;
 
 body {
     background-color: rgb(0, 0, 0);
     margin: 0;
+}
+
+#legalAgePrompt {
+    border: rgb(255, 255, 255) solid 1px;
+    background-color: $field-bg-color;
+    border-radius: 10px;
+    height: 400px;
+    width: 800px;
+    font-family: $font-style;
+    color: $font-color;
+    position: absolute;
+    transform: translate(70%, 50%);
+    z-index: 2;
+}
+
+#ageYes {
+    padding: 10px;
+    margin: 10px;
+    margin-left: 230px;
+    margin-top: 20px;
+    width: 150px;
+    font-family: $font-style;
+    font-size: 120%;
+    cursor: pointer;
+    background-color: $button-color;
+    border: $button-border;
+}
+
+#ageNo {
+    padding: 10px;
+    margin: 10px;
+    width: 150px;
+    font-size: 120%;
+    font-family: $font-style;
+    cursor: pointer;
+    background-color: $button-color;
+    border: $button-border;
+}
+
+#ageText {
+    padding-left: 0px;
+    text-align: center;
+}
+
+#blackOutBlur {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    display: auto;
+    background-color: rgba(17, 17, 17, 0.9);
 }
 
 #mainContent {
@@ -34,17 +86,25 @@ body {
 #menu {
     justify-content: center;
     align-items: center;
-    padding-top: 20px;
+    padding-top: 30px;
 }
 
 #menuOptions {
-    color: white;
+    color: $font-color;
     font-family: $font-style;
+    list-style-type: none;
+    font-size: 120%;
+    padding: 0;
+    margin: 0;
 }
 
 .menuList {
     list-style: none;
-    display: inline;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 #headerBG {
@@ -61,7 +121,7 @@ body {
 
 #about {
     height: 100vh;
-    margin-top: 20px;
+    margin-top: 0px;
     display: flex;
     align-items: flex-start;
     flex-direction: column;
@@ -173,10 +233,56 @@ body {
 #footerTextDiv {
     margin-left: 100px;
     margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 #textBoxFooterLeft {
     color: $font-color;
-    width: 100vw;
     font-family: $font-style;
+    width: 30vw;
+}
+
+#emailInput {
+    padding-left: 90px;
+    margin-top: 50px;
+    color: $font-color;
+    width: 30vw;
+}
+
+#contactUsLabel {
+    color: $font-color;
+    font-family: $font-style;
+    padding-left: 125px;
+}
+
+#emailInputBox {
+    width: 300px;
+    height: 30px;
+    background-color: rgb(124, 121, 117);
+}
+
+#emailBtn {
+    height: 30px;
+    width: 75px;
+    transform: translate(5px,3px);
+    background-color: $button-color;
+    border: $button-border;
+    border-radius: 4px;
+    font-family: $font-style;
+}
+
+#phoneNumber {
+    padding-left: 110px;
+}
+
+#mapPic {
+    width: 350px;
+    height: 350px;
+}
+
+#locationInfo {
+    color: $font-color;
+    padding-left: 160px;
 }
