@@ -333,4 +333,23 @@ body {
   color: #554e41;
   padding-left: 160px;
 }
+
+#returnSquare {
+  background-color: black;
+  border: #554e41 solid 1px;
+  border-radius: 20px;
+  color: #554e41;
+  height: 100px;
+  width: 100px;
+  position: fixed;
+  cursor: pointer;
+  bottom: 0;
+  right: 0;
+}
+
+#returnV {
+  -webkit-transform: translate(22%, -2%);
+          transform: translate(22%, -2%);
+  font-size: 120px;
+}
 /*# sourceMappingURL=style.css.map */

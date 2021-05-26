@@ -286,3 +286,21 @@ body {
     color: $font-color;
     padding-left: 160px;
 }
+
+#returnSquare {
+    background-color: black;
+    border: $font-color solid 1px;
+    border-radius: 20px;
+    color: $font-color;
+    height: 100px;
+    width: 100px;
+    position: fixed;
+    cursor: pointer;
+    bottom: 0;
+    right: 0;
+}
+
+#returnV {
+    transform: translate(22%, -2%);
+    font-size: 120px;
+}
