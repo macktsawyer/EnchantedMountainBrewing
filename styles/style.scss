@@ -284,7 +284,7 @@ body {
 
 #locationInfo {
     color: $font-color;
-    padding-left: 160px;
+    padding-left: 180px;
 }
 
 #returnSquare {
@@ -292,8 +292,8 @@ body {
     border: $font-color solid 1px;
     border-radius: 20px;
     color: $font-color;
-    height: 100px;
-    width: 100px;
+    height: 75px;
+    width: 75px;
     position: fixed;
     cursor: pointer;
     bottom: 0;
@@ -302,5 +302,5 @@ body {
 
 #returnV {
     transform: translate(22%, -2%);
-    font-size: 120px;
+    font-size: 100px;
 }

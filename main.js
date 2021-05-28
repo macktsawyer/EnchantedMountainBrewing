@@ -19,3 +19,7 @@ document.getElementById('ageNo').addEventListener('click', function() {
     document.querySelector('#legalAgePrompt').style.display = 'none';
     window.location.replace('http://www.google.com');
 });
+
+document.getElementById('returnToTop').addEventListener('click', function(){
+    window.scrollTo(0, 0);
+})
