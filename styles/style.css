@@ -68,7 +68,7 @@ body {
 }
 
 #header {
-  height: 50vh;
+  height: 500px;
   background-color: black;
 }
 
@@ -110,7 +110,7 @@ body {
 }
 
 #headerBG {
-  height: 50vh;
+  height: 450px;
   -o-object-fit: contain;
      object-fit: contain;
   overflow: hidden;
@@ -124,7 +124,7 @@ body {
 }
 
 #about {
-  height: 100vh;
+  height: 900px;
   margin-top: 0px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -140,7 +140,7 @@ body {
 }
 
 #aboutBG {
-  height: 50vh;
+  height: 450px;
   -o-object-fit: contain;
      object-fit: contain;
   overflow: hidden;
@@ -164,7 +164,7 @@ body {
 }
 
 #motto {
-  height: 100vh;
+  height: 900px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -189,7 +189,7 @@ body {
 }
 
 #mottoBG {
-  height: 50vh;
+  height: 450px;
   -o-object-fit: contain;
      object-fit: contain;
   overflow: hidden;
@@ -203,7 +203,7 @@ body {
 }
 
 #ourBeer {
-  height: 100vh;
+  height: 900px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -218,7 +218,7 @@ body {
 }
 
 #ourBeerBG {
-  height: 50vh;
+  height: 450px;
   -o-object-fit: contain;
      object-fit: contain;
   overflow: hidden;
@@ -242,7 +242,7 @@ body {
 }
 
 #footer {
-  height: 100vh;
+  height: 900px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -257,7 +257,7 @@ body {
 }
 
 #footerBG {
-  height: 50vh;
+  height: 450px;
   -o-object-fit: contain;
      object-fit: contain;
   overflow: hidden;
