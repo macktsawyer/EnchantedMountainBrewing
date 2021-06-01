@@ -304,3 +304,64 @@ body {
     transform: translate(22%, -2%);
     font-size: 100px;
 }
+
+@media only screen and (max-width: 768px) {
+    img {
+        width: 100%;
+    }
+
+    #header.container {
+        padding: 0;
+        height: 205px;
+      }
+
+    #menu {
+        font-size: 80%;
+    }
+
+    #legalAgePrompt {
+        max-width: 100%;
+        transform: translate(0%, 0%);
+        border: rgb(255, 255, 255) solid 1px;
+        background-color: $field-bg-color;
+        border-radius: 10px;
+        font-family: $font-style;
+        color: $font-color;
+        position: absolute;
+        z-index: 2;
+    }
+
+    #ageYes {
+        padding: 2px;
+        margin: 2px;
+        margin-left: 100px;
+        margin-top: 20px;
+        width: 75px;
+        font-family: $font-style;
+        font-size: 120%;
+        cursor: pointer;
+        background-color: $button-color;
+        border: $button-border;
+    }
+    
+    #ageNo {
+        padding: 2px;
+        margin: 2px;
+        width: 75px;
+        font-size: 120%;
+        font-family: $font-style;
+        cursor: pointer;
+        background-color: $button-color;
+        border: $button-border;
+    }
+
+    #ageText {
+        padding-left: 0px;
+        text-align: center;
+        font-size: 80%;
+    }
+
+    #aboutBG {
+        height: 200px;
+    }
+}

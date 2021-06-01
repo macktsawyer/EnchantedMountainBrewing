@@ -352,4 +352,59 @@ body {
           transform: translate(22%, -2%);
   font-size: 100px;
 }
+
+@media only screen and (max-width: 768px) {
+  img {
+    width: 100%;
+  }
+  #header.container {
+    padding: 0;
+    height: 205px;
+  }
+  #menu {
+    font-size: 80%;
+  }
+  #legalAgePrompt {
+    max-width: 100%;
+    -webkit-transform: translate(0%, 0%);
+            transform: translate(0%, 0%);
+    border: white solid 1px;
+    background-color: black;
+    border-radius: 10px;
+    font-family: "Oswald", sans-serif;
+    color: #554e41;
+    position: absolute;
+    z-index: 2;
+  }
+  #ageYes {
+    padding: 2px;
+    margin: 2px;
+    margin-left: 100px;
+    margin-top: 20px;
+    width: 75px;
+    font-family: "Oswald", sans-serif;
+    font-size: 120%;
+    cursor: pointer;
+    background-color: grey;
+    border: black solid 1px;
+  }
+  #ageNo {
+    padding: 2px;
+    margin: 2px;
+    width: 75px;
+    font-size: 120%;
+    font-family: "Oswald", sans-serif;
+    cursor: pointer;
+    background-color: grey;
+    border: black solid 1px;
+  }
+  #ageText {
+    padding-left: 0px;
+    text-align: center;
+    font-size: 80%;
+  }
+  #aboutBG {
+    height: 200px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
