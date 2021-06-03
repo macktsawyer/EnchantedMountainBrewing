@@ -4,7 +4,7 @@ body {
 }
 
 #legalAgePrompt {
-  border: white solid 1px;
+  border: #d1d1d1 solid 1px;
   background-color: black;
   border-radius: 10px;
   height: 400px;
