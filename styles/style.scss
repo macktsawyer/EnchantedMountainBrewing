@@ -52,8 +52,6 @@ body {
     border: $button-border;
 }
 
-
-
 #blackOutBlur {
     width: 100vw;
     height: 100vh;
@@ -69,10 +67,9 @@ body {
 
 #logoFade {
     padding: 0;
-  }
-
-#logoImage {
-    height: 500px;
+    #logoImage {
+        height: 500px;
+    }
 }
 
 #header {
@@ -88,24 +85,22 @@ body {
     justify-content: center;
     align-items: center;
     padding-top: 30px;
-}
-
-#menuOptions {
-    color: $font-color;
-    font-family: $font-style;
-    list-style-type: none;
-    font-size: 120%;
-    padding: 0;
-    margin: 0;
-}
-
-.menuList {
-    list-style: none;
-    display: inline-block;
-    padding-left: 10px;
-    padding-right: 10px;
-    text-decoration: underline;
-    cursor: pointer;
+    #menuOptions {
+        color: $font-color;
+        font-family: $font-style;
+        list-style-type: none;
+        font-size: 120%;
+        padding: 0;
+        margin: 0;
+        .menuList {
+            list-style: none;
+            display: inline-block;
+            padding-left: 10px;
+            padding-right: 10px;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+    }
 }
 
 #headerBG {
@@ -127,22 +122,19 @@ body {
     align-items: flex-start;
     flex-direction: column;
     background-color: $field-bg-color;
-}
-
-#aboutBG {
-    height: 450px;
-    object-fit: contain;
-    overflow: hidden;
-}
-
-#textBoxAbout {
-    width: 100vw;
-    color: $font-color;
-    font-family: $font-style;
-}
-
-#textBoxAboutP {
-    font-size: 120%;
+    #aboutBG {
+        height: 450px;
+        object-fit: contain;
+        overflow: hidden;
+    }
+    #textBoxAbout {
+        width: 100vw;
+        color: $font-color;
+        font-family: $font-style;
+        p {
+            font-size: 120%;
+        }
+    }
 }
 
 #beer {
