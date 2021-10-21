@@ -17,6 +17,11 @@ body {
   z-index: 2;
 }
 
+#legalAgePrompt #ageText {
+  padding-left: 0px;
+  text-align: center;
+}
+
 #ageYes {
   padding: 10px;
   margin: 10px;
@@ -39,11 +44,6 @@ body {
   cursor: pointer;
   background-color: grey;
   border: black solid 1px;
-}
-
-#ageText {
-  padding-left: 0px;
-  text-align: center;
 }
 
 #blackOutBlur {

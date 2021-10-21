@@ -22,6 +22,10 @@ body {
     position: absolute;
     transform: translate(70%, 50%);
     z-index: 2;
+    #ageText {
+        padding-left: 0px;
+        text-align: center;
+    }
 }
 
 #ageYes {
@@ -48,10 +52,7 @@ body {
     border: $button-border;
 }
 
-#ageText {
-    padding-left: 0px;
-    text-align: center;
-}
+
 
 #blackOutBlur {
     width: 100vw;
