@@ -149,22 +149,19 @@ body {
     align-items: flex-start;
     flex-direction: column;
     background-color: $field-bg-color;
-}
-
-#textBoxMotto {
-    color: $font-color;
-    width: 100vw;
-    font-family: $font-style;
-}
-
-#textMottoP {
-    font-size: 120%;
-}
-
-#mottoBG {
-    height: 450px;
-    object-fit: contain;
-    overflow: hidden;
+    #mottoBG {
+        height: 450px;
+        object-fit: contain;
+        overflow: hidden;
+    }
+    #textBoxMotto {
+        color: $font-color;
+        width: 100vw;
+        font-family: $font-style;
+    }
+    p {
+        font-size: 120%;
+    }
 }
 
 #hills {
@@ -179,28 +176,24 @@ body {
     align-items: flex-start;
     flex-direction: column;
     background-color: $field-bg-color;
-}
-
-#ourBeerBG {
-    height: 450px;
-    object-fit: contain;
-    overflow: hidden;
-}
-
-#textBoxOurBeer {
-    color: $font-color;
-    width: 100vw;
-    font-family: $font-style;
-}
-
-#textOurBeerP {
-    font-size: 120%;
-}
-
-#flight {
-    width: $bg-image-width;
-    padding-top: $bg-image-padding;
-    object-position: 0px -900px;
+    #textBoxOurBeer {
+        color: $font-color;
+        width: 100vw;
+        font-family: $font-style;
+    }
+    #ourBeerBG {
+        height: 450px;
+        object-fit: contain;
+        overflow: hidden;
+    }
+    p {
+        font-size: 120%;
+    }
+    img {
+        width: $bg-image-width;
+        padding-top: $bg-image-padding;
+        object-position: 0px -900px;
+    }
 }
 
 #footer {
@@ -291,11 +284,10 @@ body {
     cursor: pointer;
     bottom: 0;
     right: 0;
-}
-
-#returnV {
-    transform: translate(22%, -2%);
-    font-size: 100px;
+    #returnV {
+        transform: translate(22%, -2%);
+        font-size: 100px;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -322,36 +314,33 @@ body {
         color: $font-color;
         position: absolute;
         z-index: 2;
-    }
-
-    #ageYes {
-        padding: 2px;
-        margin: 2px;
-        margin-left: 100px;
-        margin-top: 20px;
-        width: 75px;
-        font-family: $font-style;
-        font-size: 120%;
-        cursor: pointer;
-        background-color: $button-color;
-        border: $button-border;
-    }
-    
-    #ageNo {
-        padding: 2px;
-        margin: 2px;
-        width: 75px;
-        font-size: 120%;
-        font-family: $font-style;
-        cursor: pointer;
-        background-color: $button-color;
-        border: $button-border;
-    }
-
-    #ageText {
-        padding-left: 0px;
-        text-align: center;
-        font-size: 80%;
+        #ageYes {
+            padding: 2px;
+            margin: 2px;
+            margin-left: 100px;
+            margin-top: 20px;
+            width: 75px;
+            font-family: $font-style;
+            font-size: 120%;
+            cursor: pointer;
+            background-color: $button-color;
+            border: $button-border;
+        }
+        #ageNo {
+            padding: 2px;
+            margin: 2px;
+            width: 75px;
+            font-size: 120%;
+            font-family: $font-style;
+            cursor: pointer;
+            background-color: $button-color;
+            border: $button-border;
+        }
+        #ageText {
+            padding-left: 0px;
+            text-align: center;
+            font-size: 80%;
+        }
     }
 
     #aboutBG {

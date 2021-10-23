@@ -178,21 +178,21 @@ body {
   background-color: black;
 }
 
-#textBoxMotto {
+#motto #mottoBG {
+  height: 450px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  overflow: hidden;
+}
+
+#motto #textBoxMotto {
   color: #554e41;
   width: 100vw;
   font-family: "Oswald", sans-serif;
 }
 
-#textMottoP {
+#motto p {
   font-size: 120%;
-}
-
-#mottoBG {
-  height: 450px;
-  -o-object-fit: contain;
-     object-fit: contain;
-  overflow: hidden;
 }
 
 #hills {
@@ -217,24 +217,24 @@ body {
   background-color: black;
 }
 
-#ourBeerBG {
+#ourBeer #textBoxOurBeer {
+  color: #554e41;
+  width: 100vw;
+  font-family: "Oswald", sans-serif;
+}
+
+#ourBeer #ourBeerBG {
   height: 450px;
   -o-object-fit: contain;
      object-fit: contain;
   overflow: hidden;
 }
 
-#textBoxOurBeer {
-  color: #554e41;
-  width: 100vw;
-  font-family: "Oswald", sans-serif;
-}
-
-#textOurBeerP {
+#ourBeer p {
   font-size: 120%;
 }
 
-#flight {
+#ourBeer img {
   width: 100vw;
   padding-top: 0;
   -o-object-position: 0px -900px;
@@ -347,7 +347,7 @@ body {
   right: 0;
 }
 
-#returnV {
+#returnSquare #returnV {
   -webkit-transform: translate(22%, -2%);
           transform: translate(22%, -2%);
   font-size: 100px;
@@ -376,7 +376,7 @@ body {
     position: absolute;
     z-index: 2;
   }
-  #ageYes {
+  #legalAgePrompt #ageYes {
     padding: 2px;
     margin: 2px;
     margin-left: 100px;
@@ -388,7 +388,7 @@ body {
     background-color: grey;
     border: black solid 1px;
   }
-  #ageNo {
+  #legalAgePrompt #ageNo {
     padding: 2px;
     margin: 2px;
     width: 75px;
@@ -398,7 +398,7 @@ body {
     background-color: grey;
     border: black solid 1px;
   }
-  #ageText {
+  #legalAgePrompt #ageText {
     padding-left: 0px;
     text-align: center;
     font-size: 80%;
